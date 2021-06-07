@@ -4,16 +4,7 @@ TimeDial presents a crowdsourced English challenge set, for temporal commonsense
 
 In order to establish strong baselines and provide information on future model development, we conducted extensive experiments with state-of-the-art LMs. While humans can easily answer these questions (97.8\%), the best T5 model variant struggles on this challenge set (73\%). Moreover, our qualitative error analyses show that the models often rely on shallow, spurious features (particularly text matching), instead of truly doing reasoning over the context. 
 
-Detailed experiments and analyses can be found in our paper. If you use or discuss this dataset in your work, please cite it as follows:
-
-```
-@inproceedings{qin-etal-2021-timedial,
-    title = "TimeDial: Temporal Commonsense Reasoning in Dialog",
-    author = "Qin, Lianhui and Gupta, Aditya and Upadhyay, Shyam and He, Luheng and Choi, Yejin and Faruqui, Manaal",
-    booktitle = "Proc. of ACL 2021",
-    year = "2021"
-}
-```
+Detailed experiments and analyses can be found in our paper. 
 
 ## Dataset Description
 TimeDial dataset consists of 1,104 dialog instances with 2 correct and 2 incorrect options with the following statistics:
@@ -60,6 +51,18 @@ Here's an example from the dataset:
 
 ## Leaderboard
 Stay tuned! To be updated soon.
+
+## Citation
+If you use or discuss this dataset in your work, please cite it as follows:
+
+```
+@inproceedings{qin-etal-2021-timedial,
+    title = "TimeDial: Temporal Commonsense Reasoning in Dialog",
+    author = "Qin, Lianhui and Gupta, Aditya and Upadhyay, Shyam and He, Luheng and Choi, Yejin and Faruqui, Manaal",
+    booktitle = "Proc. of ACL",
+    year = "2021"
+}
+```
 
 ## License
 TimeDial dataset is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
