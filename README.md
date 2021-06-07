@@ -1,6 +1,6 @@
 # TimeDial: Temporal Commonsense Reasoning in Dialog
 
-TimeDial presents a crowdsourced English challenge set, for temporal commonsense reasoning, formulated as a multiple choice cloze task with over 1.5K carefully curated dialogs. The dataset is derived from the DailyDialog ([Li et al., 2017](https://www.aclweb.org/anthology/I17-1099/)), which is a multi-turn dialog corpus.
+TimeDial presents a crowdsourced English challenge set, for temporal commonsense reasoning, formulated as a multiple choice cloze task with around 1.5k carefully curated dialogs. The dataset is derived from the DailyDialog ([Li et al., 2017](https://www.aclweb.org/anthology/I17-1099/)), which is a multi-turn dialog corpus.
 
 In order to establish strong baselines and provide information on future model development, we conducted extensive experiments with state-of-the-art LMs. While humans can easily answer these questions (97.8\%), the best T5 model variant struggles on this challenge set (73\%). Moreover, our qualitative error analyses show that the models often rely on shallow, spurious features (particularly text matching), instead of truly doing reasoning over the context. 
 
