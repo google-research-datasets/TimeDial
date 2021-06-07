@@ -31,13 +31,13 @@ The entire TimeDial dataset is a challenge set (`test.json`), where each example
 Here's an example from the dataset:
 ```json
  {
+    "id": 1,
     "conversation": [
       "A: We need to take the accounts system offline to carry out the upgrade . But don't worry , it won't cause too much inconvenience . We're going to do it over the weekend .",
       "B: How long will the system be down for ?",
       "A: We'll be taking everything offline in about two hours ' time . It'll be down for a minimum of twelve hours . If everything goes according to plan , it should be up again by 6 pm on Saturday .",
       "B: That's fine . We've allowed <MASK> to be on the safe side ."
     ],
-    "id": 1,
     "correct1": "forty-eight hours",
     "correct2": "50 hours ",
     "incorrect1": "two hours ",
