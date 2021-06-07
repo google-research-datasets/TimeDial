@@ -47,7 +47,7 @@ Here's an example from the dataset:
   }
 ```
 
-**Note**: We also collected 342 extra instances for which the annotators deem there is only one unique correct answer for the context. Thus, each of those instances contains one correct option and two incorrect ones. We release those instances along with the dataset, though we did not include them in empirical study in this paper.
+**Note**: We also collected 342 extra instances for which the annotators deem there is only one unique correct answer for the context. Thus, each of those instances contains one correct option and two incorrect ones. We release those instances along with the dataset, though we did not include them in empirical study in this paper. These cases are marked with the seond correct answer as "_none_".
 
 ## Leaderboard
 Stay tuned! To be updated soon.
