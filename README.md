@@ -32,7 +32,7 @@ Here's an example from the dataset:
 ```json
  {
     "conversation": [
-      "A:We need to take the accounts system offline to carry out the upgrade . But don't worry , it won't cause too much inconvenience . We're going to do it over the weekend .",
+      "A: We need to take the accounts system offline to carry out the upgrade . But don't worry , it won't cause too much inconvenience . We're going to do it over the weekend .",
       "B: How long will the system be down for ?",
       "A: We'll be taking everything offline in about two hours ' time . It'll be down for a minimum of twelve hours . If everything goes according to plan , it should be up again by 6 pm on Saturday .",
       "B: That's fine . We've allowed <MASK> to be on the safe side ."
@@ -57,7 +57,7 @@ If you use or discuss this dataset in your work, please cite it as follows:
 
 ```
 @inproceedings{qin-etal-2021-timedial,
-    title = "TimeDial: Temporal Commonsense Reasoning in Dialog",
+    title = "{TimeDial: Temporal Commonsense Reasoning in Dialog}",
     author = "Qin, Lianhui and Gupta, Aditya and Upadhyay, Shyam and He, Luheng and Choi, Yejin and Faruqui, Manaal",
     booktitle = "Proc. of ACL",
     year = "2021"
