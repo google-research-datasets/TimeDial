@@ -4,7 +4,7 @@ TimeDial presents a crowdsourced English challenge set, for temporal commonsense
 
 In order to establish strong baselines and provide information on future model development, we conducted extensive experiments with state-of-the-art LMs. While humans can easily answer these questions (97.8\%), the best T5 model variant struggles on this challenge set (73\%). Moreover, our qualitative error analyses show that the models often rely on shallow, spurious features (particularly text matching), instead of truly doing reasoning over the context. 
 
-Detailed experiments and analyses can be found in our paper. 
+Detailed experiments and analyses can be found in our [paper](https://arxiv.org/pdf/2106.04571.pdf). 
 
 ## Dataset Description
 TimeDial dataset consists of 1,104 dialog instances with 2 correct and 2 incorrect options with the following statistics:
